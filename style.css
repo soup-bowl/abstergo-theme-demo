@@ -15,3 +15,8 @@
 body {
 	font-family: 'BastardusSans', sans-serif;
 }
+
+.entry-content {
+    font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+    letter-spacing: normal;
+}
