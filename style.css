@@ -1,0 +1,17 @@
+/*
+	Theme Name:   Abstergo Entertainment
+	Theme URI:    https://github.com/soup-bowl/abstergo-theme-demo
+	Description:  
+	Author:       soup-bowl
+	Author URI:   https://www.soupbowl.io
+	Template:     twentytwenty
+	Version:      1.1
+	License:      GNU General Public License v3 or later
+	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+@import url('BastardusSans.ttf');
+
+body {
+	font-family: 'BastardusSans';
+}
