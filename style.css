@@ -5,7 +5,7 @@
 	Author:       soup-bowl
 	Author URI:   https://www.soupbowl.io
 	Template:     twentytwenty
-	Version:      1.1
+	Version:      1
 	License:      GNU General Public License v3 or later
 	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -14,10 +14,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
+	background-color: pink;
 	font-family: 'BastardusSans', sans-serif;
 }
 
 .entry-content {
-    font-family: NonBreakingSpaceOverride, 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: normal;
+}
+
+#site-header {
+    background-color: purple;
+    position: relative;
+}
+
+.singular .entry-header,
+.archive-header {
+	background-color: peru;
+}
+
+#site-footer {
+	background-color: green;
+}
+
+.footer-nav-widgets-wrapper {
+	background-color: cyan;
 }
