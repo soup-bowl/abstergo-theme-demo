@@ -1,2 +1,2 @@
-# abstergo-theme-demo
-Theme for my demo website
+# Abstergo Entertainment
+**Dummy site from [soupbowl.io](https://www.soupbowl.io).**
