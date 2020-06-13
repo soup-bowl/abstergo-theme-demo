@@ -46,6 +46,7 @@ if( get_theme_mod('aben_maintenance_mode') && ( ! current_user_can( 'edit_themes
 				<link rel='stylesheet' id='maintenance-css'  href='<?php echo get_stylesheet_directory_uri() . '/style-maintenance.css'; ?>' media='all' />
 				<link rel="icon" href="<?php echo get_site_icon_url(32); ?>" sizes="32x32" />
 				<link rel="icon" href="<?php echo get_site_icon_url(192); ?>" sizes="192x192" />
+				<meta name="theme-color" content="#1c1c1c">
 				<title>Maintenance - Abstergo Industries</title>
 			</head>
 			<body>
