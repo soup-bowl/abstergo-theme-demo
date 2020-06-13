@@ -59,7 +59,7 @@
 					<div class="header-titles">
 
 						<?php
-							$abs_img  = trailingslashit( get_stylesheet_directory_uri() ) . 'img/abstergo/ae.min.svg';
+							$abs_img  = trailingslashit( get_stylesheet_directory_uri() ) . 'img/abstergo/ae.svg';
 							$abs_rurl = get_site_url();
 						?>
 					
