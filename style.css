@@ -5,7 +5,7 @@
 	Author:       soup-bowl
 	Author URI:   https://www.soupbowl.io
 	Template:     twentytwenty
-	Version:      7
+	Version:      8
 	License:      GNU General Public License v3 or later
 	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -116,6 +116,19 @@ body.error404::before {
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-size: 75% 75%;
+}
+
+.search-form .search-field,
+.search-form .search-submit {
+    margin: 0;
+}
+
+.search-form .search-field {
+    border-radius: 10px 0 0 10px;
+}
+
+.search-form .search-submit {
+    border-radius: 0 10px 10px 0;
 }
 
 /* colours */
