@@ -47,6 +47,14 @@ add_action(
 	}
 );
 
+add_action(
+	'login_enqueue_scripts',
+	function() {
+		wp_enqueue_style( 'aben-login', get_stylesheet_directory_uri() . '/style-login.css', [], '1' );
+		wp_enqueue_script( 'aben-login' );
+	}
+);
+
 if( get_theme_mod('aben_maintenance_mode') && ( ! current_user_can( 'edit_themes' ) || ! is_user_logged_in() ) ) {
 	add_action(
 		'template_redirect',

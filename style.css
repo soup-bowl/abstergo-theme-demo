@@ -53,7 +53,7 @@ body {
 .footer-copyright::before {
 	content: "";
 	display: inline-block;
-	background-image: url('img/abstergo/industry.svg');
+	background-image: url('img/abstergo/industry-s.svg');
     background-size: contain;
     vertical-align: middle;
 	width: 30px;
