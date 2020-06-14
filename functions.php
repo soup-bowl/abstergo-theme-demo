@@ -68,6 +68,7 @@ if( get_theme_mod('aben_maintenance_mode') && ( ! current_user_can( 'edit_themes
 				<title>Maintenance - Abstergo Industries</title>
 			</head>
 			<body>
+				<div class="nars-warning"><?php _e( 'This is not a real site. Trademark of all Assassin\'s creed content goes to Ubisoft.', 'aben' ); ?></div>
 				<div class="container">
 					<img src="<?php echo trailingslashit( get_stylesheet_directory_uri() ) . 'img/abstergo/logo.svg'; ?>"/>
 					<h1>We'll be back soon</h1>

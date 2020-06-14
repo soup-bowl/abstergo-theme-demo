@@ -25,6 +25,14 @@ body::before {
 	background-size: 75% 75%;
 }
 
+.nars-warning {
+    background-color:#ff6060;
+    color:#600000;
+    text-align: center;
+    padding: 2px 0 2px 0;
+    font-weight: bold;
+}
+
 .container {
 	display: inline-block;
 	width: 75%;
