@@ -88,6 +88,10 @@ a {
     color: #bfbfbf;
 }
 
+.cover-color-overlay.color-accent {
+    color: #1c1c1c;
+}
+
 blockquote,
 .border-color-accent,
 .border-color-accent-hover:hover,
