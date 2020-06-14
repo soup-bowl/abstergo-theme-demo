@@ -38,7 +38,11 @@ body {
 
 .singular .entry-header,
 .archive-header {
-	background-color: #aeaeae;
+    background-color: #aeaeae;
+    background-image: url('img/abstergo/backing.svg');
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.2);
 }
 
 #site-footer {
