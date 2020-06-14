@@ -72,6 +72,11 @@ body {
     color: #1c1c1c;
 }
 
+.social-icons a {
+    color: #1c1c1c;
+    border-radius: 25%;
+}
+
 /* colours */
 .color-accent,
 .color-accent-hover:hover,

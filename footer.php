@@ -25,7 +25,7 @@
 								_x( 'Y', 'copyright date format', 'twentytwenty' )
 							);
 							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo __( 'Abstergo Industries', 'aben' ) ?></a>
 						</p><!-- .footer-copyright -->
 
 					</div><!-- .footer-credits -->
