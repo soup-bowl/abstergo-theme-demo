@@ -187,11 +187,17 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .footer-widgets a,
 #site-footer .wp-block-button.is-style-outline,
 .wp-block-pullquote:before,
+/*.singular:not(.overlay-header) .entry-header a,*/
+.archive-header a/*,
+.header-footer-group .color-accent,
+.header-footer-group .color-accent-hover:hover*/ {
+    color: #bfbfbf;
+}
+
 .singular:not(.overlay-header) .entry-header a,
-.archive-header a,
 .header-footer-group .color-accent,
 .header-footer-group .color-accent-hover:hover {
-    color: #bfbfbf;
+    color: #1c1c1c;
 }
 
 .social-icons a,
@@ -235,10 +241,15 @@ body:not(.overlay-header) .toggle-inner .toggle-text,
 .widget_meta li,
 .widget_nav_menu li,
 .powered-by-wordpress,
-.to-the-top,
+.to-the-top/*,
 .singular .entry-header .post-meta,
-.singular:not(.overlay-header) .entry-header .post-meta a {
+.singular:not(.overlay-header) .entry-header .post-meta a*/ {
     color: #6d6d6d;
+}
+
+.singular .entry-header .post-meta
+.singular:not(.overlay-header) .entry-header .post-meta a {
+    color: #1c1c1c;
 }
 
 .header-footer-group pre,
