@@ -28,22 +28,13 @@ body {
     position: relative;
 }
 
-body:not(.overlay-header) .primary-menu > li > a {
-	color: #bfbfbf!important;
-}
-
 .singular .entry-header,
 .archive-header {
 	background-color: #aeaeae;
-	color: #242424;
 }
 
 #site-footer {
 	background-color: #1c1c1c;
-}
-
-.footer-inner {
-	color: #bfbfbf;
 }
 
 .header-footer-group,
