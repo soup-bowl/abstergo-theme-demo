@@ -5,7 +5,7 @@
 	Author:       soup-bowl
 	Author URI:   https://www.soupbowl.io
 	Template:     twentytwenty
-	Version:      4
+	Version:      5
 	License:      GNU General Public License v3 or later
 	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -61,7 +61,8 @@ body {
 .footer-copyright::before {
 	content: "";
 	display: inline-block;
-	background-image: url('img/abstergo/industry-s.svg');
+    background-image: url('img/abstergo/industry-s.svg');
+    background-repeat: no-repeat;
     background-size: contain;
     vertical-align: middle;
 	width: 30px;
