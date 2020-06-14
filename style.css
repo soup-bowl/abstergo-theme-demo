@@ -218,6 +218,11 @@ body:not(.overlay-header) #site-header .toggle,
     color: #ffffff;
 }
 
+.header-footer-group .entry-title,
+.header-footer-group .archive-title {
+    color: #1c1c1c;
+}
+
 body:not(.overlay-header) .primary-menu ul {
     background-color: #ffffff;
 }
