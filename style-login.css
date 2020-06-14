@@ -4,9 +4,8 @@ body {
 	margin: 0;
 	background-color: #1c1c1c;
 	color: #bfbfbf;
-	text-align: center;
+	text-align: left;
 	font-family: 'BastardusSans', sans-serif;
-	font-size: 1.25em;
 }
 
 body::before {
@@ -25,6 +24,10 @@ body::before {
 	background-size: 75% 75%;
 }
 
+.login .message, .login #login_error {
+	color: #1c1c1c;
+}
+
 .login form {
     margin-top: 20px;
     margin-left: 0;
@@ -37,7 +40,7 @@ body::before {
 }
 
 .login h1 a {
-	background-image: url('img/abstergo/industry.svg');
+	background-image: url('img/abstergo/logo.svg');
 	background-size: contain;
 	width: 150px;
 	height: 150px;
