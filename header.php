@@ -26,6 +26,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+		<div class="nars-warning"><?php _e( 'This is not a real site. Trademark of all Assassin\'s creed content goes to Ubisoft.', 'aben' ); ?></div>
 
 		<?php
 		wp_body_open();

@@ -18,6 +18,14 @@ body {
 	font-family: 'BastardusSans', sans-serif;
 }
 
+.nars-warning {
+    background-color:#ff6060;
+    color:#600000;
+    text-align: center;
+    padding: 2px 0 2px 0;
+    font-weight: bold;
+}
+
 .entry-content {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: normal;
