@@ -69,6 +69,10 @@ body {
 }
 
 .primary-menu ul a {
+    color: #bfbfbf;
+}
+
+body:not(.overlay-header) .primary-menu ul a {
     color: #1c1c1c;
 }
 
