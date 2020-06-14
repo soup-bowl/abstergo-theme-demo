@@ -5,7 +5,7 @@
 	Author:       soup-bowl
 	Author URI:   https://www.soupbowl.io
 	Template:     twentytwenty
-	Version:      5
+	Version:      6
 	License:      GNU General Public License v3 or later
 	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -92,6 +92,10 @@ body:not(.overlay-header) .primary-menu ul a {
 
 .reduce-header-gap {
     padding-top: 0rem!important;
+}
+
+.search-modal-inner button {
+    color:#1c1c1c!important;
 }
 
 /* colours */
