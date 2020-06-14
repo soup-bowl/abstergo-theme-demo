@@ -25,7 +25,7 @@
 
 	?>
 
-	<div class="post-inner <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
+	<div class="post-inner <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> reduce-header-gap">
 
 		<div class="entry-content">
 
