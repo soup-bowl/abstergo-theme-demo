@@ -1,11 +1,21 @@
 <?php
 
-/* enqueue scripts and style from parent theme */
+/* Enqueue scripts and style from parent theme. */
 add_action(
 	'wp_enqueue_scripts',
 	function() {
 		wp_enqueue_style( 'parent', get_template_directory_uri() . '/style.css', [], '1.0' );
 	}
+);
+
+/* Disable customizer colours. */
+add_action(
+	'wp_enqueue_scripts',
+	function() {
+		$styles = wp_styles();
+		$styles->add_data( 'twentytwenty-style', 'after', array() );
+	},
+	20
 );
 
 // Customize settings modifications.
