@@ -78,7 +78,7 @@ body {
 }
 
 .reduce-header-gap {
-    padding-top: 0rem;
+    padding-top: 0rem!important;
 }
 
 /* colours */
