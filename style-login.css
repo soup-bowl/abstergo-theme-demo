@@ -17,7 +17,7 @@ body::before {
 	height: 100%;
 	position: absolute;
 	z-index: -1;
-	
+
 	background-image: url("img/abstergo/industry-s.svg");
 	background-position: right bottom;
 	background-repeat: no-repeat;
@@ -29,13 +29,13 @@ body::before {
 }
 
 .login form {
-    margin-top: 20px;
-    margin-left: 0;
-    padding: 26px 24px 46px;
-    font-weight: 400;
-    overflow: hidden;
-    background: inherit;
-    border: none;
+	margin-top: 20px;
+	margin-left: 0;
+	padding: 26px 24px 46px;
+	font-weight: 400;
+	overflow: hidden;
+	background: inherit;
+	border: none;
 	box-shadow: none;
 }
 
@@ -47,16 +47,16 @@ body::before {
 }
 
 .login #backtoblog a, .login #nav a {
-    text-decoration: none;
-    color: #bfbfbf;
+	text-decoration: none;
+	color: #bfbfbf;
 }
 
 .login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
-    color: #ebebeb;
+	color: #ebebeb;
 }
 
 .login #backtoblog a:focus, .login #nav a:focus, .login h1 a:focus {
-    color: #727272;
+	color: #727272;
 }
 
 .login form .input, .login input[type="text"] {

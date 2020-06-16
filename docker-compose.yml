@@ -3,6 +3,7 @@ services:
   db:
     image: mariadb:latest
     environment:
+      MYSQL_DATABASE: wordpress
       MYSQL_ROOT_PASSWORD: localconnect
   www:
     depends_on:

@@ -26,7 +26,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<div class="nars-warning"><?php _e( 'This is not a real site. Trademark of all Assassin\'s creed content goes to Ubisoft.', 'aben' ); ?></div>
+		<div class="nars-warning"><?php esc_html_e( 'This is not a real site. Trademark of all Assassin\'s creed content goes to Ubisoft.', 'aben' ); ?></div>
 
 		<?php
 		wp_body_open();
@@ -63,9 +63,9 @@
 							$abs_img  = trailingslashit( get_stylesheet_directory_uri() ) . 'img/abstergo/ae.svg';
 							$abs_rurl = get_site_url();
 						?>
-					
+
 						<div class="site-title faux-heading">
-							<a href="<?php echo $abs_rurl; ?>"><img style="max-height: 100px" src="<?php echo $abs_img; ?>" /></a>
+							<a href="<?php echo esc_attr( $abs_rurl ); ?>"><img style="max-height: 100px" src="<?php echo esc_url( $abs_img ); ?>" /></a>
 						</div>
 
 					</div><!-- .header-titles -->
@@ -135,7 +135,7 @@
 
 								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 									<span class="toggle-inner">
-										<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
+										<span class="toggle-text"><?php esc_html_e( 'Menu', 'twentytwenty' ); ?></span>
 										<span class="toggle-icon">
 											<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
 										</span>
