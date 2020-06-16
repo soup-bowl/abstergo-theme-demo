@@ -76,7 +76,7 @@ if ( get_theme_mod( 'aben_maintenance_mode' ) && ( ! current_user_can( 'edit_the
 			<body>
 				<div class="nars-warning"><?php esc_html_e( 'This is not a real site. Trademark of all Assassin\'s creed content goes to Ubisoft.', 'aben' ); ?></div>
 				<div class="container">
-					<img src="<?php echo esc_url( trailingslashit( get_stylesheet_directory_uri() ) . 'img/abstergo/logo.svg' ); ?>"/>
+					<img src="<?php echo esc_url( trailingslashit( get_stylesheet_directory_uri() ) . 'assets/img/abstergo/logo.svg' ); ?>"/>
 					<h1>We'll be back soon</h1>
 					<p>This website has been taken down for maintenance, and will return shortly. We assure all customers of Abstergo Entertainment can continue to enjoy our titles while this website is offline.</p>
 					<p class="subtle">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> - Abstergo Industries</p>

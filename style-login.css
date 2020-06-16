@@ -1,4 +1,4 @@
-@import url('BastardusSans.ttf');
+@import url('assets/BastardusSans.ttf');
 
 body {
 	margin: 0;
@@ -18,7 +18,7 @@ body::before {
 	position: absolute;
 	z-index: -1;
 
-	background-image: url("img/abstergo/industry-s.svg");
+	background-image: url("assets/img/abstergo/industry-s.svg");
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-size: 75% 75%;
@@ -40,7 +40,7 @@ body::before {
 }
 
 .login h1 a {
-	background-image: url('img/abstergo/logo.svg');
+	background-image: url('assets/img/abstergo/logo.svg');
 	background-size: contain;
 	width: 150px;
 	height: 150px;
