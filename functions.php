@@ -54,7 +54,7 @@ add_action(
 add_action(
 	'login_enqueue_scripts',
 	function() {
-		wp_enqueue_style( 'aben-login', get_stylesheet_directory_uri() . '/style-login.css', array(), '2' );
+		wp_enqueue_style( 'aben-login', get_stylesheet_directory_uri() . '/style-login.css', array(), '3' );
 		wp_enqueue_script( 'aben-login' );
 	}
 );
@@ -67,7 +67,7 @@ if ( get_theme_mod( 'aben_maintenance_mode' ) && ( ! current_user_can( 'edit_the
 			// phpcs:disable WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet
 			?>
 			<head>
-				<link rel='stylesheet' id='maintenance-css'  href='<?php echo esc_url( get_stylesheet_directory_uri() . '/style-maintenance.css' ); ?>?ver=2' media='all' />
+				<link rel='stylesheet' id='maintenance-css'  href='<?php echo esc_url( get_stylesheet_directory_uri() . '/style-maintenance.css' ); ?>?ver=3' media='all' />
 				<link rel="icon" href="<?php echo esc_url( get_site_icon_url( 32 ) ); ?>" sizes="32x32" />
 				<link rel="icon" href="<?php echo esc_url( get_site_icon_url( 192 ) ); ?>" sizes="192x192" />
 				<meta name="theme-color" content="#1c1c1c">
