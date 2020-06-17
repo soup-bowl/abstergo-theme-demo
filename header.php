@@ -65,7 +65,15 @@
 						?>
 
 						<div class="site-title faux-heading">
-							<a href="<?php echo esc_attr( $abs_rurl ); ?>"><img style="max-height: 100px" src="<?php echo esc_url( $abs_img ); ?>" /></a>
+
+							<div class="site-title faux-heading">
+								<a href="<?php echo esc_attr( $abs_rurl ); ?>"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a>
+							</div>
+
+							<div class="site-description">
+
+							</div>
+
 						</div>
 
 					</div><!-- .header-titles -->

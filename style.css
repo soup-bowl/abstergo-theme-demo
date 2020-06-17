@@ -35,6 +35,18 @@ body {
 	letter-spacing: normal;
 }
 
+.site-title a::before {
+	content: "";
+	display: inline-block;
+	background-image: url('assets/img/abstergo/logo.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
 #site-header {
 	background-color: #1c1c1c;
 	position: relative;
