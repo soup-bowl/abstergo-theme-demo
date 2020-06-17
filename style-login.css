@@ -1,4 +1,7 @@
-@import url('assets/BastardusSans.ttf');
+@font-face {
+	font-family: 'BastardusSans';
+	src: url('assets/BastardusSans.ttf') format('truetype');
+}
 
 body {
 	margin: 0;
